@@ -1,0 +1,48 @@
+
+.fondo-footer {
+    /*fondo secciones*/
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+.footer {
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    color: #ffffff;
+}
+
+
+
+.logo-footer h4 {
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.logo-footer h5 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.copy {
+    font-size: 10px;
+    text-align: right;
+}
+
+.mapa-sitio,
+.redes-sociales {
+    margin-top: 40px;
+}
+
+.mapa-sitio li {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.redes-sociales img {
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
